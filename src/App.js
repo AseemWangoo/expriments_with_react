@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Fader from './components/Fader'
 
 function App() {
   return (
-    <>
-      <h1 className="App">Hello there!</h1>
-    </>
+    <div className="App">
+      <Fader text="Hello React"></Fader>
+    </div>
   );
 }
 
