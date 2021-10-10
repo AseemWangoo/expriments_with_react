@@ -1,0 +1,18 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install env-cmd
+        - npm ci
+    build:
+      commands:
+        - echo "I am running 🏃on $BUILD_ENV"
+        - npm run build:$BUILD_ENV
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
