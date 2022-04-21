@@ -1,5 +1,5 @@
 import "./App.css";
-import Fader from "./components/Fader";
+import Fader from "./components/Fader/Fader";
 
 import React, { useState } from "react";
 import { onMessageListener } from "./firebaseInit";
