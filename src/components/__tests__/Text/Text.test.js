@@ -14,3 +14,10 @@ test("should render text component", () => {
 
   expect(textElem).toBeInTheDocument();
 });
+
+test("text matches snapshot", () => {
+  const component = renderer.create(<Text />);
+
+  let tree = component.toJSON();
+  expect(tree).toMatchSnapshot();
+});
