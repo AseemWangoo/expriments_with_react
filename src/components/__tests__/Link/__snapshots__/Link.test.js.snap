@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  className="normal"
+  href="https://github.com/aseemwangoo"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Made with ❤️ - Aseem
+</a>
+`;

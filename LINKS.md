@@ -15,8 +15,5 @@
 - If notifications show twice,
   `https://stackoverflow.com/questions/66263996/react-app-my-alert-window-is-showing-up-twice`
 
-### For using notifications
-
-- Enter the value in REACT_APP_VAPID_KEY
-- Inside the firebaseInit.js, place your firebase config
-- Inside the firebase-messaging-sw.js, place your firebase config
+### Testing react app
+- https://youtu.be/ML5egqL3YFE

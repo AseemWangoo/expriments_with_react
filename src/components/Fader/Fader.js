@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import '../App.css'
+import '../../App.css'
 
 const Fader = ({ text }) => {
 
@@ -26,7 +26,7 @@ const Fader = ({ text }) => {
 
     return (
         <>
-            <h1 className={fadeProp.fade}>{text}</h1>
+            <h1 data-testid="fader" className={fadeProp.fade}>{text}</h1>
         </>
     )
 }
