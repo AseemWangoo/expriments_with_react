@@ -21,3 +21,8 @@
 - Enter the value in REACT_APP_VAPID_KEY
 - Inside the firebaseInit.js, place your firebase config
 - Inside the firebase-messaging-sw.js, place your firebase config
+
+### Pieces Snippets
+
+- Calling APIs in React
+https://aseem.pieces.cloud/?p=61fa45af76

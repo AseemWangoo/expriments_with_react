@@ -7,6 +7,7 @@ import Notifications from "./components/Notifications/Notifications";
 import ReactNotificationComponent from "./components/Notifications/ReactNotification";
 import Text from "../src/components/Text/Text"
 import Link from "../src/components/Link/Link"
+import CachedData from "./data/cache/Cached";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -38,6 +39,7 @@ function App() {
       <Notifications />
       <Fader text="Hello React"></Fader>
       <Text />
+      <CachedData />
       <Link>Made with ❤️ - Aseem</Link>
     </div>
   );
